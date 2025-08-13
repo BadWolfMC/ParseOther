@@ -46,7 +46,7 @@ public class ParseOtherExpansion extends PlaceholderExpansion {
           input = (resolved == null || resolved.contains("%") || resolved.isEmpty()) ? input : resolved;
       }
 
-      // Intentar como UUID primero
+      // Try as UUID first
       try {
           UUID id = UUID.fromString(input);
           OfflinePlayer found = Bukkit.getOfflinePlayer(id);
