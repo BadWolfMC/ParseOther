@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Expansion-ParseOther</groupId>
   <artifactId>Expansion-ParseOther</artifactId>
-  <version>2.0.3-BWMC</version>
+  <version>2.0.4-BWMC</version>
   <build>
 	<finalName>${project.artifactId}</finalName>
     <sourceDirectory>src</sourceDirectory>
@@ -11,8 +11,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.15.0</version>
         <configuration>
-          <source>21</source>
-          <target>21</target>
+          <source>25</source>
+          <target>25</target>
         </configuration>
       </plugin>
     </plugins>
@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>io.papermc.paper</groupId>
 			<artifactId>paper-api</artifactId>
-			<version>1.21.11-R0.1-SNAPSHOT</version>
+			<version>[26.1.2.build,)</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
